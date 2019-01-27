@@ -62,7 +62,7 @@ try:
     print ("\nThe email has been sent.")
 
 except:  
-    print ("An error occurred.")
+    print ("\nAn error occurred.")
     
 print ("\nHave a nice day!")
 
