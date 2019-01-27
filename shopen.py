@@ -9,7 +9,7 @@ recipient = str(input("Recipient's email: "))
 
 while True:
 	try:
-		productsnm = int(input(f"Hi, {nume}!\nHow many products do you want to add to the shopping list? " ))
+		productsnm = int(input(f"Hi, {name}!\nHow many products do you want to add to the shopping list? " ))
 	except ValueError:
 		print ("Please input a number.")
 	else:
