@@ -35,7 +35,7 @@ for x in range(int(productsnm)):
     products.append(product)
     quantities.append(quantity)
 
-print ("These products have been added to the shopping list:")
+print ("\nThese products have been added to the shopping list:")
 
 for x, y in zip(products, quantities):
     print (f'{x} x {y}')
