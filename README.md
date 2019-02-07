@@ -2,7 +2,7 @@
 
 This is a shopping list program made in python3 and sent by E-Mail.
 
-Requirements:
+#Requirements:
 
 1.Python3.
 
@@ -11,7 +11,7 @@ Requirements:
 3.Recipent's E-Mail address.
 
 
-Instructions:
+#Instructions:
 
 1.Input your name.
 
