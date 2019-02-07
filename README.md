@@ -1,5 +1,5 @@
-# shop
-Shopping list made in python3 and sent by email
+# Shopping List
+This is a Shoppingiaa Sde in python3 and sent by email
 
 SHOPPING LIST
 
