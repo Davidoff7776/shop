@@ -1,11 +1,8 @@
 # Shopping List
 
-
 This is a shopping list program made in python3 and sent by E-Mail.
 
-
 Requirements:
-
 
 1.Python3.
 
@@ -15,7 +12,6 @@ Requirements:
 
 
 Instructions:
-
 
 1.Input your name.
 
