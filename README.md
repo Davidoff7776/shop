@@ -1,7 +1,6 @@
 # Shopping List
-This is a Shoppingiaa Sde in python3 and sent by email
 
-SHOPPING LIST
+This is a shopping list program made in python3 and sent by E-Mail.
 
 Requirements:
 
