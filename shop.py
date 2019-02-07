@@ -48,8 +48,7 @@ class ShoppingList:
 
 if __name__ == '__main__':
     name = input("Name: ")
-    n = get_user_input(f"Hi, {name}!\nHow many products do you want to add to
-                       the shopping list? ", int)
+    n = get_user_input(f"Hi, {name}!\nHow many products do you want to add to the shopping list? ", int)
     shopping_list = ShoppingList()
     for _ in range(n):
         product = get_user_input("Input the product name: ")
