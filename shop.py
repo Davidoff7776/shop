@@ -6,6 +6,7 @@ from getpass import getpass
 
 from collections import defaultdict
 
+import sys
 
 def get_user_input(message, type=str):
     while True:
@@ -64,4 +65,4 @@ if __name__ == '__main__':
 
     print("\nHave a nice day!")
 
-exit()
+sys.exit()
