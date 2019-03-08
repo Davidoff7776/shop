@@ -1,6 +1,6 @@
 # Shopping List
 
-This is a shopping list program made in python3 and sent by E-Mail.
+This is a shopping list script made in Python 3.
 
 **Requirements:** 
 
