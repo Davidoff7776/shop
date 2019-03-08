@@ -1,12 +1,9 @@
 import smtplib
-
 from email.message import EmailMessage
-
 from getpass import getpass
-
 from collections import defaultdict
-
 import sys
+
 
 def get_user_input(message, type=str):
     while True:
@@ -16,7 +13,7 @@ def get_user_input(message, type=str):
             print(f"Please input a {type}.")
 
 
-class ShoppingList:
+class ShoppingList():
 
     def __init__(self):
         self.items = defaultdict(int)
@@ -47,14 +44,16 @@ class ShoppingList:
             print("\nAn error occurred:", e)
 
 
-if __name__ == '__main__':
-    name = input("Name: ")
-    n = get_user_input(f"Hi, {name}!\nHow many products do you want to add to the shopping list? ", int)
+def main():
+    name = input("Input your name: ")
+    print(f"Hi, {name}!")
     shopping_list = ShoppingList()
-    for _ in range(n):
-        product = get_user_input("Input the product name: ")
-        quantity = get_user_input("Input the product quantity: ", int)
-        shopping_list.add_item(product, quantity)
+    while True:
+            product = get_user_input("Input the product name (input \"stop\" when you are done): ")
+            if product == "stop":
+                break
+            quantity = get_user_input("Input the product quantity: ", int)
+            shopping_list.add_item(product, quantity)
     print("\nThese products have been added to the shopping list:")
     print(shopping_list)
 
@@ -65,4 +64,6 @@ if __name__ == '__main__':
 
     print("\nHave a nice day!")
 
-sys.exit()
+
+if __name__ == '__main__':
+    main()
